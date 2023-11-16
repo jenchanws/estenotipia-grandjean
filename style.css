@@ -202,3 +202,10 @@ blockquote {
   line-height: 1.5em;
   text-indent: 2em;
 }
+
+.left {
+  color: #ff8080;
+}
+.right {
+  color: #8080ff;
+}
