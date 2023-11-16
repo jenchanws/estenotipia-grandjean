@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, sans-serif;
+}
+
+@font-face {
+  font-family: AzeretGrandjean;
+  font-weight: 400;
+  src: url("AzeretMonoGrandjean-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: AzeretGrandjean;
+  font-weight: bold;
+  src: url("AzeretMonoGrandjean-Bold.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  line-height: 1.5em;
+}
+
+.note {
+  margin-top: 30px;
+  background-color: #fff8c7;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 35em;
+  line-height: 1.5em;
+}
+
+section {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+section h1 {
+  margin-bottom: 0;
+}
+
+section h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+section h3 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+section div[lang="es"],
+section div[lang="en"] {
+  display: inline-block;
+  text-align: left;
+  width: 40em;
+  padding: 10px 40px;
+  vertical-align: top;
+}
+
+.narrow-ja [lang="ja"] {
+  width: 32em;
+}
+
+section p {
+  text-indent: 2em;
+  line-height: 1.75em;
+}
+
+section p.contin {
+  text-indent: 0;
+}
+
+section footer {
+  margin-top: 2em;
+  font-size: 90%;
+}
+
+li.empty {
+  list-style-type: none;
+  margin-left: 4.5em;
+}
+
+li.empty p {
+  text-indent: 0;
+}
+
+.principles {
+  list-style-type: upper-alpha;
+}
+
+li {
+  margin: 2em auto;
+}
+
+section li {
+  line-height: 1.75em !important;
+}
+
+li > p:first-child {
+  text-indent: 0;
+}
+
+.principles p {
+  text-indent: 0;
+}
+
+img {
+  display: block;
+  text-align: center;
+}
+
+.steno {
+  width: 34em;
+  margin: 1em auto;
+  text-align: left !important;
+}
+
+rt {
+  user-select: none;
+}
+
+.steno div:first-child .line {
+  border-top: 1px solid black;
+}
+.steno div:last-child .line {
+  border-bottom: 1px solid black;
+}
+
+.line {
+  font-family: AzeretGrandjean;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  white-space: pre;
+  margin-right: 1em;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 6px 12px;
+}
+.line.dots {
+  letter-spacing: 2px;
+}
+
+.steno .line.deleted {
+  color: #ccc;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: red;
+}
+
+code {
+  font-family: AzeretGrandjean;
+}
+
+section > p,
+section > table {
+  max-width: calc(70em + 30px);
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+}
+
+ol,
+ul,
+li {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+#functions p {
+  margin-bottom: 0;
+  text-indent: 1em;
+}
+
+#functions ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+blockquote {
+  line-height: 1.5em;
+  text-indent: 2em;
+}
